@@ -41,6 +41,18 @@
             text-align: center;
             height: 100vh
         }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        
+        @media(max-width: 600px) {
+            .gallery {
+                grid-template-columns: 1;
+            }
+        }
     </style>
 </head>
 
@@ -71,6 +83,19 @@
         <a href="">Ramu</a>
         <a href="">Ravi</a>
     </nav>
+
+
+
+    <!--  using div containg image tag-->
+    <div class="gallery">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.w9dU38fXuoCm78D_ZeOBKgHaHa&pid=Api&P=0&h=180" height="300px" width="300px" alt="demoimage1">
+        <img src="https://pics.craiyon.com/2023-06-01/e14f308eb68a43a889a77a5b3723f6d7.webp" height="300px" width="300px" alt="demoimage2">
+        <img src="https://imgv3.fotor.com/images/gallery/cartoon-character-generated-by-Fotor-ai-art-creator.jpg" height="300px" width="300px" alt="demoimage3">
+        <img src="https://cdn.photographylife.com/wp-content/uploads/2014/09/Nikon-D750-Image-Samples-2.jpg" height="300px" width="300px" alt="demoimage4">
+
+    </div>
+
+
 
 </body>
 
