@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* 1 */
+        
         a {
             color: blue;
         }
@@ -17,6 +19,7 @@
         a:active {
             color: green;
         }
+        /* 2 */
         
         h1 {
             font-family: Arial;
@@ -27,6 +30,7 @@
             line-height: 1.6;
             text-align: justify;
         }
+        /* 3 */
         
         .card {
             border: 1px solid gray;
@@ -34,6 +38,7 @@
             margin: 10px;
             max-width: 300px;
         }
+        /* 4 */
         
         nav {
             display: flex;
@@ -41,6 +46,7 @@
             text-align: center;
             height: 100vh
         }
+        /* 5 */
         
         .gallery {
             display: grid;
@@ -53,6 +59,7 @@
                 grid-template-columns: 1;
             }
         }
+        /* 6 */
         
         button {
             background-color: blue;
@@ -65,12 +72,23 @@
             background-color: darkblue;
             transition: 0.3s;
         }
+        /* 7 */
+        
+        .button1 {
+            width: 150px;
+            height: 50px;
+            background-color: red;
+        }
+        
+        .button1:hover {
+            transform: scale(1.2);
+        }
     </style>
 </head>
 
 <body>
 
-    <!-- Unorder List with using a(achnor tag) -->
+    <!-- 1.Unorder List with using a(achnor tag) -->
     <ul>
 
         <li><a href="">Sai</a></li>
@@ -80,16 +98,16 @@
         <li><a href="">Rohith</a></li>
     </ul>
 
-    <!-- Pagaragraph Text using title with heading tag -->
+    <!-- 2.Pagaragraph Text using title with heading tag -->
     <h1>The title of the project</h1>
     <p> Basically Sai kiran is Good person because he do all good things </p>
 
 
-    <!-- Div Section -->
+    <!-- 3.Div Section -->
     <div class="card">Div class containing card section</div>
 
 
-    <!-- Nav bar section -->
+    <!--4. Nav bar section -->
     <nav>
         <a href="">Raju</a>
         <a href="">Ramu</a>
@@ -98,7 +116,7 @@
 
 
 
-    <!--  using div containg image tag-->
+    <!-- 5. using div containg image tag-->
     <div class="gallery">
         <img src="https://tse3.mm.bing.net/th?id=OIP.w9dU38fXuoCm78D_ZeOBKgHaHa&pid=Api&P=0&h=180" height="300px" width="300px" alt="demoimage1">
         <img src="https://pics.craiyon.com/2023-06-01/e14f308eb68a43a889a77a5b3723f6d7.webp" height="300px" width="300px" alt="demoimage2">
@@ -108,8 +126,16 @@
     </div>
 
 
-    <!-- Button tag -->
+    <!--6. Button tag -->
     <button>Some Sai kiran Things</button>
+
+    <br>
+
+
+
+    <!--7. Button Tag -->
+
+    <button class="button1">HoverMe</button>
 
 
 </body>
